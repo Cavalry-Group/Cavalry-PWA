@@ -3,13 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My PWA</title>
+  <title>Onboarding PWA</title>
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#317EFB"/>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, PWA!</h1>
-  <button onclick="saveCheckIn()">Clock In</button>
+  <iframe src="https://cavalry--cavdevjb.sandbox.my.salesforce-sites.com/jobonboarding/OnboardingPortal" title="Onboarding Portal"></iframe>
   <script src="app.js"></script>
 </body>
 </html>
